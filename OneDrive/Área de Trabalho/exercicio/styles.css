@@ -1,8 +1,9 @@
+/* Compiled CSS from SASS logic */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -24,6 +25,7 @@ header {
     position: sticky;
     top: 0;
     left: 0;
+    z-index: 1000;
 }
 
 header .container {
@@ -63,6 +65,21 @@ section {
 .product-item img {
     width: 100%;
     border-radius: 16px;
+    transition: transform 0.3s ease;
+}
+
+.product-item img:hover {
+    transform: scale(1.02);
+}
+
+.product-item h4 {
+    margin-top: 16px;
+}
+
+.product-item p {
+    margin: 8px 0;
+    color: #555;
+    font-size: 14px;
 }
 
 .product-button {
@@ -74,6 +91,7 @@ section {
     border-radius: 8px;
     margin-top: 8px;
     text-decoration: none;
+    transition: background-color 0.3s ease;
 }
 
 .product-button:hover {
@@ -96,7 +114,7 @@ section {
         display: block;
     }
 
-    .product-item  {
+    .product-item {
         margin-bottom: 32px;
     }
 }
