@@ -1,0 +1,8 @@
+
+
+DevTools listening on ws://127.0.0.1:63076/devtools/browser/e3646bd1-324d-4a80-a14d-cdaa90d1d035
+Your project does not contain a default supportFile. We expect a file matching cypress/support/e2e.{js,jsx,ts,tsx} to exist.
+
+If a support file is not necessary for your project, set supportFile to false.
+
+https://on.cypress.io/support-file-missing-or-invalid
